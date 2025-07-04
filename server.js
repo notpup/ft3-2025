@@ -1,0 +1,24 @@
+// Gracias no country... me enseñaste mas que la UTN.
+
+import { PORT } from "./src/config/constants";
+import connectDatabase from "./src/config/mongoose";
+import morganConfig from "./src/config/logger.js";
+
+import express from "express";
+import cors from "cors";
+import morgan from "morgan";
+import mongoose from "mongoose";
+
+const app = express()
+app.use(express.json())
+app.use(cors())
+app.use(morgan(morganConfig))
+
+mongoose.connection.once("open", () => {
+	app.listen(PORT, () => {
+    console.log(`FT3 running on port: ${PORT}`);
+    console.log(`Local URL: http://localhost:${PORT}/`)
+  })
+})
+
+connectDatabase()
