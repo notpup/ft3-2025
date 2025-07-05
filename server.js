@@ -16,11 +16,11 @@ app.use(cors());
 app.use(morgan(morganConfig));
 app.use("/api", apiRouter)
 
-mongoose.connection.once("open", () => {
+//mongoose.connection.once("open", () => {
   app.listen(PORT, () => {
     console.log(`FT3 running on port: ${PORT}`);
     console.log(`Local URL: http://localhost:${PORT}/`);
   });
-});
+//});
 
 connectDatabase();
