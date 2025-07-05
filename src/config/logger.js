@@ -58,3 +58,6 @@ const morganConfig = (tokens, req, res) => {
     tokens.errorMessage(req, res),
   ].join(" ");
 };
+
+
+export default morganConfig
