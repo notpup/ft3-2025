@@ -1,6 +1,7 @@
 import dotenv from "dotenv"
+import { __dirname } from "./path.js";
 
-dotenv.config({ path: "../../env/.env.test" })
+dotenv.config({ path: __dirname+"/env/.env.test" })
 
 const PORT = process.env.PORT
 const MONGO_URI = process.env.MONGO_URI
