@@ -21,6 +21,6 @@ const playerSchema = new mongoose.Schema({
   },
 });
 
-const Player = mongoose.model("players", playerSchema);
+const Profile = mongoose.model("players", playerSchema);
 
-export default Player;
+export default Profile;

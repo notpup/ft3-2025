@@ -4,7 +4,7 @@ import mongoosePaginate from "mongoose-paginate-v2";
 const uploadSchema = new mongoose.Schema({
   active: { type: Boolean, required: false, default: true },
   public: { type: Boolean, required: false, default: false },
-  uploadedBy: { type: String, required: true },
+  uploadedBy: { type: Number, required: true },
   assetId: { type: String, required: true, unique: true },
   version: { type: Number, required: true, unique: true },
   created: { type: Date, required: true },
