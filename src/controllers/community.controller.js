@@ -1,20 +1,6 @@
 import CustomError from "../helpers/customError.js";
 import CommunityService from "../services/community.service.js";
 
-const test = (req, res, next) => {
-  try {
-    return res.status(200).json({
-      message: "lo hiciste bien...",
-      status: 200,
-    });
-  } catch (err) {
-    return res.status(500).json({
-      message: "lo hiciste mal, nose como pero lo lograste hacer mal...",
-      status: 500,
-    });
-  }
-};
-
 const GetUpload = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -117,16 +103,102 @@ const GetUploadsByName = async (req, res, next) => {
   }
 };
 
-const CreateUpload = (req, res, next) => {};
+const CreateUpload = async (req, res, next) => {
+  try {
+    const body = req.body;
+    const created = await CommunityService.CreateUpload(body);
+    return res.status(201).json({
+      success: true,
+      status: 201,
+      response: created,
+    });
+  } catch (err) {
+    console.log(err);
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).json(
+      err.details || {
+        success: false,
+        status: statusCode,
+      }
+    );
+  }
+};
+const UpdateUpload = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const body = req.body;
+    const updated = await CommunityService.UpdateUpload(id, body);
+    return res.status(200).json({
+      success: true,
+      status: 200,
+      response: updated,
+    });
+  } catch (err) {
+    console.log(err);
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).json(
+      err.details || {
+        success: false,
+        status: statusCode,
+      }
+    );
+  }
+};
+
+const AddPlaytimeUpload = async (req, res, next) => {
+  try {
+    const { id, add } = req.params;
+    const updated = await CommunityService.AddPlaytimeUpload(id, add);
+    return res.status(200).json({
+      success: true,
+      status: 200,
+      response: updated,
+    });
+  } catch (err) {
+    console.log(err);
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).json(
+      err.details || {
+        success: false,
+        status: statusCode,
+      }
+    );
+  }
+};
+
+const DeleteUpload = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const deleted = await CommunityService.DeleteUpload(id);
+    return res.status(200).json({
+      success: true,
+      status: 200,
+      response: deleted,
+    });
+  } catch (err) {
+    console.log(err);
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).json(
+      err.details || {
+        success: false,
+        status: statusCode,
+      }
+    );
+  }
+};
 
 const CommunityController = {
+  CreateUpload,
+
   GetUpload,
   GetUserUploads,
   GetUploadsByType,
   GetUploadsByName,
 
-  CreateUpload,
-  test,
+  UpdateUpload,
+  AddPlaytimeUpload,
+
+  DeleteUpload,
 };
 
 export default CommunityController;

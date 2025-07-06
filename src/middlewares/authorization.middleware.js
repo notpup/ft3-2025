@@ -7,7 +7,6 @@ const NODE_ENVIRONMENT = NODE_ENV || "production";
 const verifyAuthorization = (req, res, next) => {
   try {
     const { authorization } = req.headers;
-
     if (
       NODE_ENVIRONMENT == "DEV" &&
       authorization ==

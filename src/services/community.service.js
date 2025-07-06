@@ -59,7 +59,7 @@ const GetUploadsByName = async ({ q, t, page, limit }) => {
   }
   const results = await db.Upload.paginate(
     {
-      name: { $regex: q, $options: 'i' },
+      name: { $regex: q, $options: "i" },
       uploadType: t,
     },
     {
@@ -71,11 +71,134 @@ const GetUploadsByName = async ({ q, t, page, limit }) => {
   return results;
 };
 
+const CreateUpload = async ({
+  uploadedBy,
+  assetId,
+  version,
+  imageId,
+  name,
+  parts,
+  unions,
+  type,
+}) => {
+  if (uploadedBy == null) {
+    throw new CustomError(400, "'uploadedBy' is required", {
+      message: "uploadedBy is required to create upload",
+    });
+  }
+  if (assetId == null) {
+    throw new CustomError(400, "'assetId' is required", {
+      message: "assetId is required to create upload",
+    });
+  }
+  if (version == null) {
+    throw new CustomError(400, "'version' is required", {
+      message: "version is required to create upload",
+    });
+  }
+  if (imageId == null) {
+    throw new CustomError(400, "'imageId' is required", {
+      message: "imageId is required to create upload",
+    });
+  }
+  if (name == null) {
+    throw new CustomError(400, "'name' is required", {
+      message: "name is required to create upload",
+    });
+  }
+  if (parts == null) {
+    throw new CustomError(400, "'parts' is required", {
+      message: "parts is required to create upload",
+    });
+  }
+  if (unions == null) {
+    throw new CustomError(400, "'unions' is required", {
+      message: "unions is required to create upload",
+    });
+  }
+  if (type == null) {
+    throw new CustomError(400, "'type' is required", {
+      message: "type is required to create upload",
+    });
+  }
+  // fua amigo tanta repeticion al pepe, debo arreglar esto mas tarde
+
+  const dt = Date.now();
+
+  const data = await db.Upload.create({
+    uploadedBy,
+    assetId,
+    version,
+    imageId,
+    name,
+    parts,
+    unions,
+    created: dt,
+    lastUpdated: dt,
+    uploadType: type,
+  })
+    .then((created) => {
+      return { success: true, status: 201, created };
+    })
+    .catch((err) => {
+      return { success: false, status: 400, message: err.errorResponse.errmsg };
+    });
+
+  if (data.success == false) {
+    throw new CustomError(data.status, data.message);
+  }
+
+  return data.created;
+};
+
+const UpdateUpload = async (id, body) => {
+  const { imageId, version, name, parts, unions, isactive, ispublic } = body;
+  const updated = await db.Upload.findByIdAndUpdate(id, {
+    imageId,
+    version,
+    name,
+    parts,
+    unions,
+    active: isactive,
+    public: ispublic,
+    lastUpdated: Date.now(),
+  });
+
+  return updated;
+};
+
+const AddPlaytimeUpload = async (id, add) => {
+  const toAdd = Number(add);
+  if (toAdd == NaN) {
+    throw new CustomError(400, "second param must be a number");
+  }
+
+  const updated = await db.Upload.findByIdAndUpdate(id, {
+    $inc: { playTime: toAdd },
+  });
+  return updated;
+};
+
+const DeleteUpload = async (id) => {
+  const deleted = await db.Upload.findByIdAndDelete(id);
+  if (deleted == null) {
+    throw new CustomError(404, "Upload not found");
+  }
+  return deleted;
+};
+
 const CommunityService = {
+  CreateUpload,
+
   GetUpload,
   GetUserUploads,
   GetUploadsByType,
-  GetUploadsByName
+  GetUploadsByName,
+
+  UpdateUpload,
+  AddPlaytimeUpload,
+
+  DeleteUpload,
 };
 
 export default CommunityService;
