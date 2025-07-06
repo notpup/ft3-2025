@@ -17,62 +17,105 @@ const test = (req, res, next) => {
 
 const GetUpload = async (req, res, next) => {
   try {
-    const { q } = req.query
-    const result = await CommunityService.GetUpload({ id: q })
+    const { id } = req.params;
+    const result = await CommunityService.GetUpload({ id: id });
     return res.status(200).json({
       success: true,
       status: 200,
-      response: result
+      response: result,
     });
   } catch (err) {
-    console.log(err)
-    const statusCode = err.statusCode||500
-    return res.status(statusCode).json(err.details || {
-      success: false,
-      status: statusCode
-    })
+    console.log(err);
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).json(
+      err.details || {
+        success: false,
+        status: statusCode,
+      }
+    );
   }
 };
 
 const GetUserUploads = async (req, res, next) => {
   try {
-    const { page = 1, limit = 25, offset = 0 } = req.query
-    const { userId } = req.params
-    const uploads = await CommunityService.GetUserUploads({ userId, page, limit, offset })
+    const { page = 1, limit = 25, offset = 0 } = req.query;
+    const { userId } = req.params;
+    const uploads = await CommunityService.GetUserUploads({
+      userId,
+      page,
+      limit,
+      offset,
+    });
     return res.status(200).json({
       success: true,
       status: 200,
-      response: uploads
-    })
+      response: uploads,
+    });
   } catch (err) {
-    console.log(err)
-    const statusCode = err.statusCode||500
-    return res.status(statusCode).json(err.details || {
-      success: false,
-      status: statusCode
-    })
+    console.log(err);
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).json(
+      err.details || {
+        success: false,
+        status: statusCode,
+      }
+    );
   }
-}
+};
 
 const GetUploadsByType = async (req, res, next) => {
-try {
-    const { page = 1, limit = 25, offset = 0 } = req.query
-    const { type } = req.params
-    const uploads = await CommunityService.GetUploadsByType({ type, page, limit, offset })
+  try {
+    const { page = 1, limit = 25, offset = 0 } = req.query;
+    const { type } = req.params;
+    const uploads = await CommunityService.GetUploadsByType({
+      type,
+      page,
+      limit,
+      offset,
+    });
     return res.status(200).json({
       success: true,
       status: 200,
-      response: uploads
-    })
+      response: uploads,
+    });
   } catch (err) {
-    console.log(err)
-    const statusCode = err.statusCode||500
-    return res.status(statusCode).json(err.details || {
-      success: false,
-      status: statusCode
-    })
+    console.log(err);
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).json(
+      err.details || {
+        success: false,
+        status: statusCode,
+      }
+    );
   }
-}
+};
+
+const GetUploadsByName = async (req, res, next) => {
+  try {
+    const { q, t, page = 1, limit = 25, offset = 0 } = req.query;
+    const uploads = await CommunityService.GetUploadsByName({
+      q,
+      t,
+      page,
+      limit,
+      offset,
+    });
+    return res.status(200).json({
+      success: true,
+      status: 200,
+      response: uploads,
+    });
+  } catch (err) {
+    console.log(err);
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).json(
+      err.details || {
+        success: false,
+        status: statusCode,
+      }
+    );
+  }
+};
 
 const CreateUpload = (req, res, next) => {};
 
@@ -80,6 +123,8 @@ const CommunityController = {
   GetUpload,
   GetUserUploads,
   GetUploadsByType,
+  GetUploadsByName,
+
   CreateUpload,
   test,
 };

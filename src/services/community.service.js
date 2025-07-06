@@ -11,7 +11,7 @@ const GetUpload = async ({ id }) => {
   return result;
 };
 
-const GetUserUploads = async ({ userId, page, limit, offset }) => {
+const GetUserUploads = async ({ userId, page, limit }) => {
   if (userId == null) {
     throw new CustomError(400, "'userId' is required", {
       message: "userId is required in params...",
@@ -32,10 +32,35 @@ const GetUserUploads = async ({ userId, page, limit, offset }) => {
   return results;
 };
 
-const GetUploadsByType = async ({ type, page, limit, offset }) => {
+const GetUploadsByType = async ({ q, page, limit }) => {
   const results = await db.Upload.paginate(
     {
       uploadType: type,
+    },
+    {
+      page,
+      limit,
+      sort: { playTime: -1 },
+    }
+  );
+  return results;
+};
+
+const GetUploadsByName = async ({ q, t, page, limit }) => {
+  if (q == null) {
+    throw new CustomError(400, "'q' is required", {
+      message: "q is required to search uploads...",
+    });
+  }
+  if (t == null) {
+    throw new CustomError(400, "'t' is required", {
+      message: "'t' is required to search by uploadType",
+    });
+  }
+  const results = await db.Upload.paginate(
+    {
+      name: { $regex: q, $options: 'i' },
+      uploadType: t,
     },
     {
       page,
@@ -50,6 +75,7 @@ const CommunityService = {
   GetUpload,
   GetUserUploads,
   GetUploadsByType,
+  GetUploadsByName
 };
 
 export default CommunityService;
