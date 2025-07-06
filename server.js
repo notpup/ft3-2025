@@ -9,6 +9,7 @@ import express from "express";
 import cors from "cors";
 import morgan from "morgan";
 import mongoose from "mongoose";
+import middlewares from "./src/middlewares/index.js";
 
 const app = express();
 app.use(express.json());
@@ -20,12 +21,15 @@ app.use(
 app.use(cors());
 app.use(morgan(morganConfig));
 app.use("/api", apiRouter)
+app.use(middlewares.errorHandler)
 
-//mongoose.connection.once("open", () => {
+mongoose.connection.once("open", () => {
   app.listen(PORT, () => {
     console.log(`FT3 running on port: ${PORT}`);
     console.log(`Local URL: http://localhost:${PORT}/`);
   });
-//});
+});
 
 connectDatabase();
+
+export default app
