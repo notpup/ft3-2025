@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import { JWT_SECRET, NODE_ENV } from "../config/constants.js";
+import { JWT_SECRET, NODE_ENV, LOCALHOST_SECRET } from "../config/constants.js";
 import CustomError from "../helpers/customError.js";
 
 const NODE_ENVIRONMENT = NODE_ENV || "production";
@@ -11,7 +11,7 @@ const verifyAuthorization = (req, res, next) => {
     if (
       NODE_ENVIRONMENT == "DEV" &&
       authorization ==
-        "Bearer hola-jente-nose-q-colocar-en-este-lugar-pero-esto-deberia-funcionar-offline"
+        `Bearer ${LOCALHOST_SECRET}`
     )
       return next();
     if (!authorization) throw new CustomError(400, "'Authorization' header is required");
