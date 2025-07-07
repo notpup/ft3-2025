@@ -170,7 +170,7 @@ const UpdateUpload = async (id, body) => {
 const AddPlaytimeUpload = async (id, add) => {
   const toAdd = Number(add);
   if (toAdd == NaN) {
-    throw new CustomError(400, "second param must be a number");
+    throw new CustomError(400, "Second url param must be a number");
   }
 
   const updated = await db.Upload.findByIdAndUpdate(id, {
