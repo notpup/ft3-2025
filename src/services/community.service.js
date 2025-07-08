@@ -79,7 +79,7 @@ const CreateUpload = async ({
   name,
   parts,
   unions,
-  type,
+  uploadType,
 }) => {
   if (uploadedBy == null) {
     throw new CustomError(400, "'uploadedBy' is required", {
@@ -116,9 +116,9 @@ const CreateUpload = async ({
       message: "unions is required to create upload",
     });
   }
-  if (type == null) {
-    throw new CustomError(400, "'type' is required", {
-      message: "type is required to create upload",
+  if (uploadType == null) {
+    throw new CustomError(400, "'uploadType' is required", {
+      message: "uploadType is required to create upload",
     });
   }
   // fua amigo tanta repeticion al pepe, debo arreglar esto mas tarde
@@ -135,7 +135,7 @@ const CreateUpload = async ({
     unions,
     created: dt,
     lastUpdated: dt,
-    uploadType: type,
+    uploadType,
   })
     .then((created) => {
       return { success: true, status: 201, created };
