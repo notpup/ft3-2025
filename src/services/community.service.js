@@ -17,8 +17,6 @@ const GetUserUploads = async ({ userId, page, limit }) => {
       message: "userId is required in params...",
     });
   }
-
-  console.log(userId);
   const results = await db.Upload.paginate(
     {
       uploadedBy: Number(userId),

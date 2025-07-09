@@ -24,6 +24,7 @@ const CreateServer = async (body) => {
 };
 
 const GetServer = async (id) => {
+  console.log("buscando:", id)
   const orArr = [
     { serverId: id },
     { rootPrivateServerId: id },
