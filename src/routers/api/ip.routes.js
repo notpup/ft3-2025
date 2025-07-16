@@ -7,14 +7,12 @@ const router = express.Router();
 router.get("/:ip", middlewares.verifyAuthorization, async (req, res, next) => {
   try {
     const { ip } = req.params;
-    console.log(ip)
     const fetchRequest = await fetch(`https://ipapi.co/${ip}/json`, {
       headers: {
         "Content-Type": "application/json",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
       }
     });
-    console.log(fetchRequest);
     const json = await fetchRequest.json()
     delete json.ip
     delete json.network
