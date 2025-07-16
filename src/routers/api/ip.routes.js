@@ -16,7 +16,7 @@ router.get("/:ip", middlewares.verifyAuthorization, async (req, res, next) => {
     const json = await fetchRequest.json()
     delete json.ip
     delete json.network
-    return res.status(200).json(json)
+    return res.status(200).json({status: 200, response: json})
   } catch (err) {
     console.log(err);
     const statusCode = err.statusCode || 500;
