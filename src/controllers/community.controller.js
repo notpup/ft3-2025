@@ -51,13 +51,18 @@ const GetUserUploads = async (req, res, next) => {
 
 const GetUploadsByType = async (req, res, next) => {
   try {
-    const { page = 1, limit = 25, offset = 0 } = req.query;
+    let { page = 1, limit = 25, offset = 0, sort = 1, q } = req.query;
+    page = Number(page)
+    sort = Number(sort)
+    limit = Number(limit)
     const { type } = req.params;
     const uploads = await CommunityService.GetUploadsByType({
       type,
       page,
       limit,
       offset,
+      sort,
+      q
     });
     return res.status(200).json({
       success: true,
@@ -187,6 +192,27 @@ const DeleteUpload = async (req, res, next) => {
   }
 };
 
+const BulkGetUploads = async (req, res, next) => {
+  try {
+    const { ids, serverOwner } = req.query;
+    const results = await CommunityService.BulkGetUploads(ids, serverOwner);
+    return res.status(200).json({
+      success: true,
+      status: 200,
+      response: results,
+    });
+  } catch (err) {
+    console.log(err);
+    const statusCode = err.statusCode || 500;
+    return res.status(statusCode).json(
+      err.details || {
+        success: false,
+        status: statusCode,
+      }
+    );
+  }
+};
+
 const CommunityController = {
   CreateUpload,
 
@@ -194,6 +220,7 @@ const CommunityController = {
   GetUserUploads,
   GetUploadsByType,
   GetUploadsByName,
+  BulkGetUploads,
 
   UpdateUpload,
   AddPlaytimeUpload,

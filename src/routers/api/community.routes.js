@@ -8,10 +8,11 @@ const router = express.Router();
 // CRUD
 router.post("/upload", middlewares.verifyAuthorization, communityController.CreateUpload)
 
-router.get("/upload/:id", middlewares.verifyAuthorization, communityController.GetUpload)
+router.get("/upload/get/:id", middlewares.verifyAuthorization, communityController.GetUpload)
 router.get("/upload/u/:userId", middlewares.verifyAuthorization, communityController.GetUserUploads)
 router.get("/upload/t/:type", middlewares.verifyAuthorization, communityController.GetUploadsByType)
 router.get("/upload", middlewares.verifyAuthorization, communityController.GetUploadsByName)
+router.get("/upload/bulk", middlewares.verifyAuthorization, communityController.BulkGetUploads)
 
 router.post("/upload/:id", middlewares.verifyAuthorization, communityController.UpdateUpload)
 router.post("/upload/:id/playtime/:add", middlewares.verifyAuthorization, communityController.AddPlaytimeUpload)

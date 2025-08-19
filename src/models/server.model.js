@@ -7,6 +7,7 @@ const serverSchema = new mongoose.Schema({
   ownerId: { type: String, required: true, unique: true },
   rootPlaceId: { type: String, required: true, unique: true },
   premium: { type: Boolean, default: false },
+  workshop: [{ type: mongoose.Types.ObjectId, ref: "uploads" }],
   thirdparty: {
     maps: [
       {

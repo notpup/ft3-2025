@@ -1,3 +1,4 @@
+import mongoose from "mongoose";
 import CustomError from "../helpers/customError.js";
 import db from "../models/index.js";
 
@@ -30,7 +31,7 @@ const GetUserUploads = async ({ userId, page, limit }) => {
   return results;
 };
 
-const GetUploadsByType = async ({ q, page, limit }) => {
+const GetUploadsByType = async ({ q, page, limit, sort }) => {
   const results = await db.Upload.paginate(
     {
       uploadType: type,
@@ -41,6 +42,48 @@ const GetUploadsByType = async ({ q, page, limit }) => {
       sort: { playTime: -1 },
     }
   );
+  return results;
+};
+
+const GetUploadsByType2 = async ({ q = "", page, limit, sort, type }) => {
+  const results = await db.Upload.aggregate([
+    {
+      $match: {
+        uploadType: type,
+        active: true,
+        public: true,
+        name: { $regex: q, $options: "i" },
+      },
+    },
+    {
+      $lookup: {
+        from: "servers",
+        localField: "_id",
+        foreignField: "workshop",
+        as: "usedInServers",
+      },
+    },
+    {
+      $addFields: {
+        serverCount: { $size: "$usedInServers" },
+      },
+    },
+    {
+      $project: {
+        usedInServers: 0,
+      },
+    },
+    {
+      $sort: { serverCount: Number(sort) },
+    },
+    {
+      $skip: (page - 1) * limit,
+    },
+    {
+      $limit: limit,
+    },
+  ]);
+  console.log(results);
   return results;
 };
 
@@ -185,13 +228,35 @@ const DeleteUpload = async (id) => {
   return deleted;
 };
 
+const BulkGetUploads = async (ids, serverOwner) => {
+  if (!ids) {
+    throw new CustomError(400, "'ids' param is required");
+  }
+  if (!serverOwner) {
+    throw new CustomError(400, "'serverOwner' param is required");
+  }
+  const arrayIds = ids.split(",").map((id) => id.trim());
+  const validIds = arrayIds.filter((id) => mongoose.Types.ObjectId.isValid(id));
+  if (validIds.length === 0) {
+    throw new CustomError(400, "no valid ids");
+  }
+  const query = {
+    _id: { $in: validIds },
+    active: true,
+    $or: [{ public: true }, { uploadedBy: Number(serverOwner) }],
+  };
+  const finded = await db.Upload.find(query);
+  return finded;
+};
+
 const CommunityService = {
   CreateUpload,
 
   GetUpload,
   GetUserUploads,
-  GetUploadsByType,
+  GetUploadsByType: GetUploadsByType2,
   GetUploadsByName,
+  BulkGetUploads,
 
   UpdateUpload,
   AddPlaytimeUpload,
