@@ -45,7 +45,7 @@ const GetUploadsByType = async ({ q, page, limit, sort }) => {
   return results;
 };
 
-const GetUploadsByType2 = async ({ q = "", page, limit, sort, type }) => {
+const GetUploadsByType2 = async ({ q = "", page, limit, sort, type, sortby }) => {
   const results = await db.Upload.aggregate([
     {
       $match: {
@@ -70,7 +70,7 @@ const GetUploadsByType2 = async ({ q = "", page, limit, sort, type }) => {
     },
     {
       $project: {
-        usedInServers: 0,
+        [sortby]: 0,
       },
     },
     {
@@ -83,7 +83,7 @@ const GetUploadsByType2 = async ({ q = "", page, limit, sort, type }) => {
       $limit: limit,
     },
   ]);
-  console.log(results);
+  //console.log(results);
   return results;
 };
 

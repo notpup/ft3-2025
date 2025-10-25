@@ -1,14 +1,14 @@
 import express from "express";
 
 import communityRouter from "./community.routes.js";
-//import playerRouter from "./player.routes.js";
+import profileRouter from "./profile.routes.js";
 import serverRouter from "./server.routes.js";
 import ipRouter from "./ip.routes.js";
 
 const router = express.Router();
 
 router.use("/community", communityRouter)
-//router.use("/players", playerRouter)
+router.use("/profile", profileRouter)
 router.use("/server", serverRouter)
 router.use("/ip", ipRouter)
 
