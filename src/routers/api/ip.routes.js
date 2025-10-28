@@ -19,6 +19,7 @@ router.get("/:ip", middlewares.verifyAuthorization, async (req, res, next) => {
       region: json.region,
       city: json.city
     }
+    console.log(json)
     return res.status(200).json({status: 200, response})
   } catch (err) {
     console.log(err);
