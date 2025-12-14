@@ -73,7 +73,8 @@ const serverSchema = new mongoose.Schema({
     accesoriesHitbox: { type: Boolean, default: true },
     allowMediguns: { type: Boolean, default: true },
     allowDisplayNames: { type: Boolean, default: true },
-
+    automatedTeams: { type: Boolean, default: false },
+    
     gunsys: { type: String, default: "RCL" },
     map: { type: String, default: "Bricktops" },
     skybox: { type: String, default: "Default" },
