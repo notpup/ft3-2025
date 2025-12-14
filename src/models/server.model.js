@@ -8,6 +8,7 @@ const serverSchema = new mongoose.Schema({
   rootPlaceId: { type: String, required: true, unique: true },
   premium: { type: Boolean, default: false },
   workshop: [{ type: mongoose.Types.ObjectId, ref: "uploads" }],
+  visits: { type: Number, default: 0 },
   thirdparty: {
     maps: [
       {
@@ -74,7 +75,8 @@ const serverSchema = new mongoose.Schema({
     allowMediguns: { type: Boolean, default: true },
     allowDisplayNames: { type: Boolean, default: true },
     automatedTeams: { type: Boolean, default: false },
-    
+    customChat: { type: Boolean, default: true },
+
     gunsys: { type: String, default: "RCL" },
     map: { type: String, default: "Bricktops" },
     skybox: { type: String, default: "Default" },
