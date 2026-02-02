@@ -46,7 +46,14 @@ const serverSchema = new mongoose.Schema({
       webhook: { type: String, default: "" },
     },
   },
+  actions: {
+    mapChanged: { type: String, default: "respawn" },
+    weaponChanged: { type: String, default: "refresh" },
+    gamemodeChanged: { type: String, default: "none" },
+    lobbyChanged: { type: String, default: "respawn" },
+  },
   data: {
+    currentGame: { type: Number, default: "" },
     serverName: { type: String, default: "" },
     serverIcon: { type: String, default: "" },
     serverPrivacy: {
@@ -62,7 +69,8 @@ const serverSchema = new mongoose.Schema({
     },
     separatedLighting: { type: Boolean, default: true },
     hideAdminPanelToNoadmins: { type: Boolean, default: true },
-
+    savePlayerStats: { type: Boolean, default: true },
+    
     bubbleChat: { type: Boolean, default: true },
     bubbleChatStyle: {
       type: String,
@@ -76,11 +84,14 @@ const serverSchema = new mongoose.Schema({
     allowDisplayNames: { type: Boolean, default: true },
     automatedTeams: { type: Boolean, default: false },
     customChat: { type: Boolean, default: true },
+    useDefaultTeamColors: { type: Boolean, default: true },
+    useDefaultTeamNames: { type: Boolean, default: true },
 
     gunsys: { type: String, default: "RCL" },
     map: { type: String, default: "Bricktops" },
     skybox: { type: String, default: "Default" },
     lobby: { type: String, default: "Default" },
+    maxPlayers: { type: Number, default: 700 },
     outscore: { type: Number, default: 0 },
     gamemode: { type: String, default: "None" },
     respawnTime: { type: Number, default: 5 },
