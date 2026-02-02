@@ -77,6 +77,10 @@ const serverSchema = new mongoose.Schema({
       default: "Light",
       enums: ["Light", "Dark"],
     },
+
+    teamEsp: { type: Number, default: 1 },
+    killfeed: { type: Number, default: 1 },
+
     lobbyTools: { type: Boolean, default: true },
     healthRegen: { type: Boolean, default: true },
     accesoriesHitbox: { type: Boolean, default: true },
