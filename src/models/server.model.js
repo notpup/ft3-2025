@@ -46,12 +46,6 @@ const serverSchema = new mongoose.Schema({
       webhook: { type: String, default: "" },
     },
   },
-  actions: {
-    mapChanged: { type: String, default: "respawn" },
-    weaponChanged: { type: String, default: "refresh" },
-    gamemodeChanged: { type: String, default: "none" },
-    lobbyChanged: { type: String, default: "respawn" },
-  },
   data: {
     currentGame: { type: Number, default: "" },
     serverName: { type: String, default: "" },
@@ -102,6 +96,11 @@ const serverSchema = new mongoose.Schema({
     forcefieldTime: { type: Number, default: 5 },
     afterkillTolerance: { type: Number, default: 1000 },
     minAge: { type: Number, default: 0 },
+
+    mapChange: { type: Number, default: 1},
+    weaponChange: { type: Number, default: 1 },
+    gamemodeChange: { type: Number, default: 1 },
+    lobbyChange: { type: Number, default: 1 },
 
     customTeams: {
       enabled: { type: Boolean, default: false },
