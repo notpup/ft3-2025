@@ -82,6 +82,8 @@ const serverSchema = new mongoose.Schema({
     allowDisplayNames: { type: Boolean, default: true },
     automatedTeams: { type: Boolean, default: false },
     customChat: { type: Boolean, default: true },
+    saveStats: { type: Boolean, default: true },
+    specSystem: { type: Boolean, default: true },
     useDefaultTeamColors: { type: Boolean, default: true },
     useDefaultTeamNames: { type: Boolean, default: true },
 

@@ -19,7 +19,7 @@
       "id": "Advanced Bricktops",
       "image": "rbxassetid://95430353864577",
       "name": "Advanced Bricktops",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -28,7 +28,7 @@
       "id": "Ancient",
       "image": "rbxassetid://110405430151154",
       "name": "Ancient",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -37,7 +37,7 @@
       "id": "Architect",
       "image": "rbxassetid://104432309923285",
       "name": "Architect",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -46,7 +46,7 @@
       "id": "Arctic",
       "image": "rbxassetid://79511337611896",
       "name": "Arctic",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -55,7 +55,7 @@
       "id": "Artifact",
       "image": "rbxassetid://79771810227131",
       "name": "Artifact",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -64,7 +64,7 @@
       "id": "Asgard",
       "image": "rbxassetid://123018280805962",
       "name": "Asgard",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -73,7 +73,7 @@
       "id": "Baseplate",
       "image": "rbxassetid://125674455653429",
       "name": "Baseplate",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -82,7 +82,7 @@
       "id": "Bastion",
       "image": "rbxassetid://101067168143479",
       "name": "Bastion",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -91,7 +91,7 @@
       "id": "Blackwater",
       "image": "rbxassetid://78836093989658",
       "name": "Blackwater",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -100,7 +100,7 @@
       "id": "Bricktops",
       "image": "rbxassetid://93355046135571",
       "name": "Bricktops",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -109,7 +109,7 @@
       "id": "Bridges",
       "image": "rbxassetid://127530255080321",
       "name": "Bridges",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -118,7 +118,7 @@
       "id": "CQC",
       "image": "rbxassetid://130556881673619",
       "name": "CQC",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -127,7 +127,7 @@
       "id": "Canaaim",
       "image": "rbxassetid://84921299286029",
       "name": "Canaaim",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -136,7 +136,7 @@
       "id": "Canyon",
       "image": "rbxassetid://108052268738958",
       "name": "Canyon",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -145,7 +145,7 @@
       "id": "Castletops",
       "image": "rbxassetid://104205407393462",
       "name": "Castletops",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -154,7 +154,7 @@
       "id": "Cave1v1",
       "image": "rbxassetid://117370331751532",
       "name": "Cave1v1",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -163,7 +163,7 @@
       "id": "Cliffs",
       "image": "rbxassetid://88143842793553",
       "name": "Cliffs",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -172,7 +172,7 @@
       "id": "Clocktower",
       "image": "rbxassetid://92416792449862",
       "name": "Clocktower",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -181,7 +181,7 @@
       "id": "Coldfront",
       "image": "rbxassetid://77105557860140",
       "name": "Coldfront",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -190,7 +190,7 @@
       "id": "Container1v1",
       "image": "rbxassetid://82157418290229",
       "name": "Container1v1",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -199,7 +199,7 @@
       "id": "Cordovan",
       "image": "rbxassetid://114793236896452",
       "name": "Cordovan",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -208,7 +208,7 @@
       "id": "Mix",
       "image": "rbxassetid://132664574828569",
       "name": "Mix",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -217,7 +217,7 @@
       "id": "Meadows",
       "image": "rbxassetid://136237527704757",
       "name": "Meadows",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -226,7 +226,7 @@
       "id": "Lucian",
       "image": "rbxassetid://140434339168318",
       "name": "Lucian",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -235,7 +235,7 @@
       "id": "Little Baseplate",
       "image": "rbxassetid://115966838653136",
       "name": "Little Baseplate",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -244,7 +244,7 @@
       "id": "LQC",
       "image": "rbxassetid://79378280895477",
       "name": "LQC",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -253,7 +253,7 @@
       "id": "Kesesto Fairzone",
       "image": "rbxassetid://89794838054905",
       "name": "Kesesto Fairzone",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -262,7 +262,7 @@
       "id": "Heatcliff",
       "image": "rbxassetid://82644074689164",
       "name": "Heatcliff",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -271,7 +271,7 @@
       "id": "HEX Pitgrounds",
       "image": "rbxassetid://123444392528226",
       "name": "HEX Pitgrounds",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -280,7 +280,7 @@
       "id": "HEX Narrowgill",
       "image": "rbxassetid://103651044791358",
       "name": "HEX Narrowgill",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -289,7 +289,7 @@
       "id": "HEX Bricktops",
       "image": "rbxassetid://104050340527608",
       "name": "HEX Bricktops",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -298,7 +298,7 @@
       "id": "Gutenburg",
       "image": "rbxassetid://71521446557713",
       "name": "Gutenburg",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -307,7 +307,7 @@
       "id": "Gut2nburg",
       "image": "rbxassetid://116309213941882",
       "name": "Gut2nburg",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -316,7 +316,7 @@
       "id": "Greenlands1v1",
       "image": "rbxassetid://107038383140534",
       "name": "Greenlands1v1",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -325,7 +325,7 @@
       "id": "Grass",
       "image": "rbxassetid://116387809448302",
       "name": "Grass",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -334,7 +334,7 @@
       "id": "Gorge",
       "image": "rbxassetid://95733250496922",
       "name": "Gorge",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -343,7 +343,7 @@
       "id": "Gandar Warzone",
       "image": "rbxassetid://79156329826944",
       "name": "Gandar Warzone",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -352,7 +352,7 @@
       "id": "Floodgate",
       "image": "rbxassetid://92361708212596",
       "name": "Floodgate",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -361,7 +361,7 @@
       "id": "Flat LQC",
       "image": "rbxassetid://80316678075288",
       "name": "Flat LQC",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -370,7 +370,7 @@
       "id": "Flat CQC",
       "image": "rbxassetid://92053837616633",
       "name": "Flat CQC",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -379,7 +379,7 @@
       "id": "Faircity",
       "image": "rbxassetid://134063805026386",
       "name": "Faircity",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -388,7 +388,7 @@
       "id": "Dust2",
       "image": "rbxassetid://104050340527608",
       "name": "Dust2",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -397,7 +397,7 @@
       "id": "Doric",
       "image": "rbxassetid://80626882980059",
       "name": "Doric",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -406,7 +406,7 @@
       "id": "Docks-side",
       "image": "rbxassetid://96515644256914",
       "name": "Docks-side",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -415,7 +415,7 @@
       "id": "Divided",
       "image": "rbxassetid://107329649752657",
       "name": "Divided",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -424,7 +424,7 @@
       "id": "Digsite",
       "image": "rbxassetid://125743345470870",
       "name": "Digsite",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -433,7 +433,7 @@
       "id": "Crown",
       "image": "rbxassetid://103101549244722",
       "name": "Crown",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -442,7 +442,7 @@
       "id": "Cross",
       "image": "rbxassetid://70947777975442",
       "name": "Cross",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -451,7 +451,7 @@
       "id": "Quo Fairzone",
       "image": "rbxassetid://76910567292968",
       "name": "Quo Fairzone",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -460,7 +460,7 @@
       "id": "Waterworks",
       "image": "rbxassetid://82077121932202",
       "name": "Waterworks",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -469,7 +469,7 @@
       "id": "Vineyard",
       "image": "rbxassetid://96539757647684",
       "name": "Vineyard",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -478,7 +478,7 @@
       "id": "Veldit",
       "image": "rbxassetid://93115497002987",
       "name": "Veldit",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -487,7 +487,7 @@
       "id": "TwoFort",
       "image": "rbxassetid://128057057165068",
       "name": "TwoFort",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -496,7 +496,7 @@
       "id": "Tunneltops",
       "image": "rbxassetid://96593821098728",
       "name": "Tunneltops",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -505,7 +505,7 @@
       "id": "Tribute",
       "image": "rbxassetid://80301992616747",
       "name": "Tribute",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -514,7 +514,7 @@
       "id": "Trainyard",
       "image": "rbxassetid://89551200339794",
       "name": "Trainyard",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -523,7 +523,7 @@
       "id": "Trainhouse",
       "image": "rbxassetid://123869108757009",
       "name": "Trainhouse",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -532,7 +532,7 @@
       "id": "Temple",
       "image": "rbxassetid://96560632109241",
       "name": "Temple",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -541,7 +541,7 @@
       "id": "Sweatlands",
       "image": "rbxassetid://89629576499896",
       "name": "Sweatlands",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -550,7 +550,7 @@
       "id": "Stoneworks",
       "image": "rbxassetid://123314284868349",
       "name": "Stoneworks",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -559,7 +559,7 @@
       "id": "Stoneless",
       "image": "rbxassetid://79904062503358",
       "name": "Stoneless",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -568,7 +568,7 @@
       "id": "Stonebrick",
       "image": "rbxassetid://109224715034959",
       "name": "Stonebrick",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -577,7 +577,7 @@
       "id": "Steeltops",
       "image": "rbxassetid://128255194959294",
       "name": "Steeltops",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -586,7 +586,7 @@
       "id": "Stalker Warzone",
       "image": "rbxassetid://138972735955836",
       "name": "Stalker Warzone",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -595,7 +595,7 @@
       "id": "Snowgard",
       "image": "rbxassetid://86652290279572",
       "name": "Snowgard",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -604,7 +604,7 @@
       "id": "Skyline",
       "image": "rbxassetid://94142297270068",
       "name": "Skyline",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -613,7 +613,7 @@
       "id": "Simple Obby 2",
       "image": "rbxassetid://105017702231295",
       "name": "Simple Obby 2",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -622,7 +622,7 @@
       "id": "Simple Obby 1",
       "image": "rbxassetid://102169169004938",
       "name": "Simple Obby 1",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -631,7 +631,7 @@
       "id": "Siege",
       "image": "rbxassetid://72582645831885",
       "name": "Siege",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -640,7 +640,7 @@
       "id": "RGL Pitgrounds",
       "image": "rbxassetid://106314852346138",
       "name": "RGL Pitgrounds",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -649,7 +649,7 @@
       "id": "Ravine",
       "image": "rbxassetid://106065714100109",
       "name": "Ravine",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -658,7 +658,7 @@
       "id": "Red Rover",
       "image": "rbxassetid://127738017569194",
       "name": "Red Rover",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -667,7 +667,7 @@
       "id": "Refinery",
       "image": "rbxassetid://136704797142460",
       "name": "Refinery",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -676,7 +676,7 @@
       "id": "Sandpit",
       "image": "rbxassetid://76339162539841",
       "name": "Sandpit",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -685,7 +685,7 @@
       "id": "Sandtops",
       "image": "rbxassetid://91118768794334",
       "name": "Sandtops",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -694,7 +694,7 @@
       "id": "Scarlet",
       "image": "rbxassetid://134785683233031",
       "name": "Scarlet",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -703,7 +703,7 @@
       "id": "Seashore",
       "image": "rbxassetid://90566627060687",
       "name": "Seashore",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -712,7 +712,7 @@
       "id": "Mothership",
       "image": "rbxassetid://109417129889450",
       "name": "Mothership",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -721,7 +721,7 @@
       "id": "Narrowgill",
       "image": "rbxassetid://88558695772203",
       "name": "Narrowgill",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -730,7 +730,7 @@
       "id": "Nexorian Gutenburg",
       "image": "rbxassetid://92517485328213",
       "name": "Nexorian Gutenburg",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -739,7 +739,7 @@
       "id": "No Mans Land",
       "image": "rbxassetid://81326144217937",
       "name": "No Mans Land",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -748,7 +748,7 @@
       "id": "Nopoptops",
       "image": "rbxassetid://121021958514646",
       "name": "Nopoptops",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -757,7 +757,7 @@
       "id": "Outcast",
       "image": "rbxassetid://79545475013743",
       "name": "Outcast",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -766,7 +766,7 @@
       "id": "Overheat",
       "image": "rbxassetid://97112833640091",
       "name": "Overheat",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -775,7 +775,7 @@
       "id": "Pipes",
       "image": "rbxassetid://75199818443351",
       "name": "Pipes",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -784,7 +784,7 @@
       "id": "Pitcastle",
       "image": "rbxassetid://75150969520524",
       "name": "Pitcastle",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -793,7 +793,7 @@
       "id": "Pitgrounds",
       "image": "rbxassetid://114459255627064",
       "name": "Pitgrounds",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     },
     {
@@ -802,7 +802,7 @@
       "id": "ZigZag1v1",
       "image": "rbxassetid://106497823370669",
       "name": "ZigZag1v1",
-      "custom": true,
+      "custom": false,
       "gamemodes": ""
     }
   ]
