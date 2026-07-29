@@ -25,6 +25,8 @@ const profileSchema = new mongoose.Schema({
     materials: { type: Boolean, default: true },
     shaders: { type: Boolean, default: true },
   },
+}, {
+  timestamps: true
 });
 
 const Profile = mongoose.model("profiles", profileSchema);

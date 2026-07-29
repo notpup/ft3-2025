@@ -1,0 +1,809 @@
+{
+  "Custom": [
+    {
+      "uploadedBy": 18066484,
+      "creator": "",
+      "id": "686df7435fe3bf919b34d196",
+      "image": "93079770693706",
+      "name": "Spyder",
+      "custom": true,
+      "gamemodes": "",
+      "unions": 0,
+      "parts": 298
+    }
+  ],
+  "Default": [
+    {
+      "uploadedBy": "",
+      "creator": "Auradownload",
+      "id": "Advanced Bricktops",
+      "image": "rbxassetid://95430353864577",
+      "name": "Advanced Bricktops",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Auradownload",
+      "id": "Ancient",
+      "image": "rbxassetid://110405430151154",
+      "name": "Ancient",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "1TrickRCL & Luc2tion",
+      "id": "Architect",
+      "image": "rbxassetid://104432309923285",
+      "name": "Architect",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "",
+      "id": "Arctic",
+      "image": "rbxassetid://79511337611896",
+      "name": "Arctic",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "c4spian & outflash",
+      "id": "Artifact",
+      "image": "rbxassetid://79771810227131",
+      "name": "Artifact",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "mike1291",
+      "id": "Asgard",
+      "image": "rbxassetid://123018280805962",
+      "name": "Asgard",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "ROBLOX",
+      "id": "Baseplate",
+      "image": "rbxassetid://125674455653429",
+      "name": "Baseplate",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Raticide",
+      "id": "Bastion",
+      "image": "rbxassetid://101067168143479",
+      "name": "Bastion",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "AgentVanBur & F9MX",
+      "id": "Blackwater",
+      "image": "rbxassetid://78836093989658",
+      "name": "Blackwater",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "OrbitalOwen",
+      "id": "Bricktops",
+      "image": "rbxassetid://93355046135571",
+      "name": "Bricktops",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Bridges",
+      "image": "rbxassetid://127530255080321",
+      "name": "Bridges",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "CQC",
+      "image": "rbxassetid://130556881673619",
+      "name": "CQC",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "pablospanish",
+      "id": "Canaaim",
+      "image": "rbxassetid://84921299286029",
+      "name": "Canaaim",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Canyon",
+      "image": "rbxassetid://108052268738958",
+      "name": "Canyon",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "crownhero",
+      "id": "Castletops",
+      "image": "rbxassetid://104205407393462",
+      "name": "Castletops",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "OrbitalOwen",
+      "id": "Cave1v1",
+      "image": "rbxassetid://117370331751532",
+      "name": "Cave1v1",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "CrimsonForce",
+      "id": "Cliffs",
+      "image": "rbxassetid://88143842793553",
+      "name": "Cliffs",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "EnigmaPenguin",
+      "id": "Clocktower",
+      "image": "rbxassetid://92416792449862",
+      "name": "Clocktower",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "BenBonez",
+      "id": "Coldfront",
+      "image": "rbxassetid://77105557860140",
+      "name": "Coldfront",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Container1v1",
+      "image": "rbxassetid://82157418290229",
+      "name": "Container1v1",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "JuHDude",
+      "id": "Cordovan",
+      "image": "rbxassetid://114793236896452",
+      "name": "Cordovan",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Mix",
+      "image": "rbxassetid://132664574828569",
+      "name": "Mix",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "babylonic",
+      "id": "Meadows",
+      "image": "rbxassetid://136237527704757",
+      "name": "Meadows",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "SURGE",
+      "id": "Lucian",
+      "image": "rbxassetid://140434339168318",
+      "name": "Lucian",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "ROBLOX",
+      "id": "Little Baseplate",
+      "image": "rbxassetid://115966838653136",
+      "name": "Little Baseplate",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "LQC",
+      "image": "rbxassetid://79378280895477",
+      "name": "LQC",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "menuspanish",
+      "id": "Kesesto Fairzone",
+      "image": "rbxassetid://89794838054905",
+      "name": "Kesesto Fairzone",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "HEX",
+      "id": "Heatcliff",
+      "image": "rbxassetid://82644074689164",
+      "name": "Heatcliff",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "HEX",
+      "id": "HEX Pitgrounds",
+      "image": "rbxassetid://123444392528226",
+      "name": "HEX Pitgrounds",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "HEX",
+      "id": "HEX Narrowgill",
+      "image": "rbxassetid://103651044791358",
+      "name": "HEX Narrowgill",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Altair551",
+      "id": "HEX Bricktops",
+      "image": "rbxassetid://104050340527608",
+      "name": "HEX Bricktops",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "BenBonez",
+      "id": "Gutenburg",
+      "image": "rbxassetid://71521446557713",
+      "name": "Gutenburg",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "BenBonez & [Edited by: outflash]",
+      "id": "Gut2nburg",
+      "image": "rbxassetid://116309213941882",
+      "name": "Gut2nburg",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "OrbitalOwen",
+      "id": "Greenlands1v1",
+      "image": "rbxassetid://107038383140534",
+      "name": "Greenlands1v1",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "MrVersal",
+      "id": "Grass",
+      "image": "rbxassetid://116387809448302",
+      "name": "Grass",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "outflash, s2n_haypro & EnigmaPenguin",
+      "id": "Gorge",
+      "image": "rbxassetid://95733250496922",
+      "name": "Gorge",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "SM",
+      "id": "Gandar Warzone",
+      "image": "rbxassetid://79156329826944",
+      "name": "Gandar Warzone",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "eviltristan",
+      "id": "Floodgate",
+      "image": "rbxassetid://92361708212596",
+      "name": "Floodgate",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Flat LQC",
+      "image": "rbxassetid://80316678075288",
+      "name": "Flat LQC",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Flat CQC",
+      "image": "rbxassetid://92053837616633",
+      "name": "Flat CQC",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "The Vaktovian Empire",
+      "id": "Faircity",
+      "image": "rbxassetid://134063805026386",
+      "name": "Faircity",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Altair551",
+      "id": "Dust2",
+      "image": "rbxassetid://104050340527608",
+      "name": "Dust2",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Sylvriko",
+      "id": "Doric",
+      "image": "rbxassetid://80626882980059",
+      "name": "Doric",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Docks-side",
+      "image": "rbxassetid://96515644256914",
+      "name": "Docks-side",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Divided",
+      "image": "rbxassetid://107329649752657",
+      "name": "Divided",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Digsite",
+      "image": "rbxassetid://125743345470870",
+      "name": "Digsite",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "BenBonez",
+      "id": "Crown",
+      "image": "rbxassetid://103101549244722",
+      "name": "Crown",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "BenBonez",
+      "id": "Cross",
+      "image": "rbxassetid://70947777975442",
+      "name": "Cross",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "pablospanish",
+      "id": "Quo Fairzone",
+      "image": "rbxassetid://76910567292968",
+      "name": "Quo Fairzone",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "cuilan",
+      "id": "Waterworks",
+      "image": "rbxassetid://82077121932202",
+      "name": "Waterworks",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "F9MX",
+      "id": "Vineyard",
+      "image": "rbxassetid://96539757647684",
+      "name": "Vineyard",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Veldit",
+      "image": "rbxassetid://93115497002987",
+      "name": "Veldit",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "mike2191",
+      "id": "TwoFort",
+      "image": "rbxassetid://128057057165068",
+      "name": "TwoFort",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "no_clu",
+      "id": "Tunneltops",
+      "image": "rbxassetid://96593821098728",
+      "name": "Tunneltops",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "EnigmaPenguin",
+      "id": "Tribute",
+      "image": "rbxassetid://80301992616747",
+      "name": "Tribute",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "hoemura",
+      "id": "Trainyard",
+      "image": "rbxassetid://89551200339794",
+      "name": "Trainyard",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "hoemura",
+      "id": "Trainhouse",
+      "image": "rbxassetid://123869108757009",
+      "name": "Trainhouse",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "idontkno",
+      "id": "Temple",
+      "image": "rbxassetid://96560632109241",
+      "name": "Temple",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "BEAR",
+      "id": "Sweatlands",
+      "image": "rbxassetid://89629576499896",
+      "name": "Sweatlands",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "blade6309",
+      "id": "Stoneworks",
+      "image": "rbxassetid://123314284868349",
+      "name": "Stoneworks",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Auradownload",
+      "id": "Stoneless",
+      "image": "rbxassetid://79904062503358",
+      "name": "Stoneless",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "thea96",
+      "id": "Stonebrick",
+      "image": "rbxassetid://109224715034959",
+      "name": "Stonebrick",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "BenBonez",
+      "id": "Steeltops",
+      "image": "rbxassetid://128255194959294",
+      "name": "Steeltops",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Nirvana360",
+      "id": "Stalker Warzone",
+      "image": "rbxassetid://138972735955836",
+      "name": "Stalker Warzone",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Nirvana360",
+      "id": "Snowgard",
+      "image": "rbxassetid://86652290279572",
+      "name": "Snowgard",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Skyline",
+      "image": "rbxassetid://94142297270068",
+      "name": "Skyline",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Simple Obby 2",
+      "image": "rbxassetid://105017702231295",
+      "name": "Simple Obby 2",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "pablospanish",
+      "id": "Simple Obby 1",
+      "image": "rbxassetid://102169169004938",
+      "name": "Simple Obby 1",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "outflash & EnigmaPenguin",
+      "id": "Siege",
+      "image": "rbxassetid://72582645831885",
+      "name": "Siege",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "SilentSwords & keitheroni",
+      "id": "RGL Pitgrounds",
+      "image": "rbxassetid://106314852346138",
+      "name": "RGL Pitgrounds",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Voile",
+      "id": "Ravine",
+      "image": "rbxassetid://106065714100109",
+      "name": "Ravine",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "lukrio",
+      "id": "Red Rover",
+      "image": "rbxassetid://127738017569194",
+      "name": "Red Rover",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "mike1291",
+      "id": "Refinery",
+      "image": "rbxassetid://136704797142460",
+      "name": "Refinery",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Sandpit",
+      "image": "rbxassetid://76339162539841",
+      "name": "Sandpit",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Sandtops",
+      "image": "rbxassetid://91118768794334",
+      "name": "Sandtops",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Scarlet",
+      "image": "rbxassetid://134785683233031",
+      "name": "Scarlet",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "outflash & EnigmaPenguin",
+      "id": "Seashore",
+      "image": "rbxassetid://90566627060687",
+      "name": "Seashore",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Gentaurg",
+      "id": "Mothership",
+      "image": "rbxassetid://109417129889450",
+      "name": "Mothership",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "SilentSwords",
+      "id": "Narrowgill",
+      "image": "rbxassetid://88558695772203",
+      "name": "Narrowgill",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "pablospanish",
+      "id": "Nexorian Gutenburg",
+      "image": "rbxassetid://92517485328213",
+      "name": "Nexorian Gutenburg",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "blade6309",
+      "id": "No Mans Land",
+      "image": "rbxassetid://81326144217937",
+      "name": "No Mans Land",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "zepenguin4",
+      "id": "Nopoptops",
+      "image": "rbxassetid://121021958514646",
+      "name": "Nopoptops",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Outcast",
+      "image": "rbxassetid://79545475013743",
+      "name": "Outcast",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "outflash",
+      "id": "Overheat",
+      "image": "rbxassetid://97112833640091",
+      "name": "Overheat",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "Unknown",
+      "id": "Pipes",
+      "image": "rbxassetid://75199818443351",
+      "name": "Pipes",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "raiderpls",
+      "id": "Pitcastle",
+      "image": "rbxassetid://75150969520524",
+      "name": "Pitcastle",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "SilentSwords",
+      "id": "Pitgrounds",
+      "image": "rbxassetid://114459255627064",
+      "name": "Pitgrounds",
+      "custom": false,
+      "gamemodes": ""
+    },
+    {
+      "uploadedBy": "",
+      "creator": "OrbitalOwen",
+      "id": "ZigZag1v1",
+      "image": "rbxassetid://106497823370669",
+      "name": "ZigZag1v1",
+      "custom": false,
+      "gamemodes": ""
+    }
+  ]
+}

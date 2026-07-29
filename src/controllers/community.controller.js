@@ -51,7 +51,7 @@ const GetUserUploads = async (req, res, next) => {
 
 const GetUploadsByType = async (req, res, next) => {
   try {
-    let { page = 1, limit = 25, offset = 0, sort = 1, q, sortby = "playTime" } = req.query;
+    let { page = 1, limit = 25, offset = 0, sort = -1, q, sortby = "playTime" } = req.query;
     page = Number(page)
     sort = Number(sort)
     limit = Number(limit)

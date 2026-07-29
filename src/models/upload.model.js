@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import mongoosePaginate from "mongoose-paginate-v2";
+import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
 
 const uploadSchema = new mongoose.Schema({
   active: { type: Boolean, required: false, default: true },
@@ -22,6 +23,7 @@ const uploadSchema = new mongoose.Schema({
 });
 
 uploadSchema.plugin(mongoosePaginate);
+uploadSchema.plugin(mongooseAggregatePaginate);
 
 const Upload = mongoose.model("uploads", uploadSchema);
 export default Upload;

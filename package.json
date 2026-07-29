@@ -19,6 +19,7 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.16.1",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
     "mongoose-paginate-v2": "^1.9.1",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.10"
@@ -30,6 +31,6 @@
     "supertest": "^7.1.1"
   },
   "jest": {
-  "transform": {}
-}
+    "transform": {}
+  }
 }
