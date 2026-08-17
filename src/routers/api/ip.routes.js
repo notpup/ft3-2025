@@ -14,7 +14,7 @@ router.get("/:ip", middlewares.verifyAuthorization, async (req, res, next) => {
   try {
     const { ip } = req.params;
     const response = reader.city(ip)
-    const returnResponse = {
+    const returnResponse = {  
       continent: response.continent.names.en,
       country_name: response.country.names.en,
       region: response.city.names.en,
