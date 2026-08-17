@@ -10,7 +10,7 @@ const reader = Reader.openBuffer(dbBuffer);
 const router = express.Router();
 
 //CRUD (No hay delete jeje)
-router.get("/:ip", async (req, res, next) => {
+router.get("/:ip", middlewares.verifyAuthorization, async (req, res, next) => {
   try {
     const { ip } = req.params;
     const response = reader.city(ip)
