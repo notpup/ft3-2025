@@ -90,6 +90,11 @@ const serverSchema = new mongoose.Schema(
       },
       timeOfDay: { type: String, default: "14:30:00", required: false },
       exposureCompensation: { type: Number, required: false, default: 0 },
+      toneMapper: {
+        type: String,
+        default: "Default",
+        enums: ["Default", "Retro"],
+      },
     },
     data: {
       currentGame: { type: Number, default: "" },

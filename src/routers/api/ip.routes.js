@@ -10,15 +10,16 @@ const reader = Reader.openBuffer(dbBuffer);
 const router = express.Router();
 
 //CRUD (No hay delete jeje)
-router.get("/:ip", middlewares.verifyAuthorization, async (req, res, next) => {
+router.get("/:ip", async (req, res, next) => {
   try {
     const { ip } = req.params;
     const response = reader.city(ip)
+    
     const returnResponse = {  
-      continent: response.continent.names.en,
-      country_name: response.country.names.en,
-      region: response.city.names.en,
-      city: response.city.names.en
+      continent: response.continent ? response.continent.names.en : "Unknown Region",
+      country_name: response.country ? response.country.names.en : "Unknown Country",
+      region: response.city ? response.city.names.en : "Unknown City",
+      city: response.city ? response.city.names.en : "Unknown City",
     }
     return res.status(200).json({status: 200, response: returnResponse})
 
