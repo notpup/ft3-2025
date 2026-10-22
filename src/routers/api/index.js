@@ -1,6 +1,7 @@
 import express from "express";
 //import jwt from "jsonwebtoken";
 
+import middlewares from "../../middlewares/index.js";
 import communityRouter from "./community.routes.js";
 import profileRouter from "./profile.routes.js";
 import serverRouter from "./server.routes.js";
@@ -11,7 +12,7 @@ import playtimeRouter from "./playtime.routes.js";
 
 const router = express.Router();
 
-router.use("/playtime", playtimeRouter)
+router.use("/playtime", middlewares.verifyAuthorization, playtimeRouter)
 router.use("/community", communityRouter)
 router.use("/profile", profileRouter)
 router.use("/server", serverRouter)
